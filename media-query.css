@@ -69,6 +69,14 @@
     .tablet-grid-parent{
       grid-template-columns: repeat(1,1fr);
     }
+    .tab-grid-child{
+        height: auto;
+    }
+    .tab-grid-child img{
+        height: 35%;
+        width: 100%;
+        margin: 1rem 0px;
+      }
 
     /* media query for brand section*/
     .brand-parent {
@@ -159,13 +167,23 @@
     
      /* media query for tablet section*/
      .tablet-grid-parent{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
       }
-
+      .tab-grid-child{
+        height: auto;
+    }
+      .tab-grid-child img{
+        height: auto;
+        width: 100%;
+        margin: 1rem 0px;
+      }
 
     /* media query for brand section*/
     .brand-parent {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .brands img {
+        padding-bottom: 1rem;
     }
     
     /* media query for footer section*/
@@ -254,13 +272,24 @@
     .tablet-grid-parent{
         grid-template-columns: repeat(2,1fr);
       }
-
+      .tab-grid-child{
+        height: auto;
+    }
+      .tab-grid-child img{
+        height: 35%;
+        width: 100%;
+        margin: 1rem 0px;
+      }
         
     /* media query for brand section*/
     .brand-parent {
         grid-template-columns: repeat(5, 1fr);
     }
-        
+     
+    .brands img {
+        padding-bottom: 1rem;
+    }
+
         /* media query for footer section*/
     
         /* footer .content .left-box,
